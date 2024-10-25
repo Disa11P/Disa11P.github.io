@@ -1,0 +1,33 @@
+img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 100%; /* La imagen ocupará el 100% del ancho del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+  max-width: 1500px; /* Máximo ancho para pantallas grandes */
+}
+
+img:hover {
+  transform: translateY(-0.625em); /* Equivalente a 10px, pero ajustable según el tamaño de la fuente */
+  box-shadow: 0em 0.25em 0.9375em rgba(221, 134, 40, 0.667); /* Ajustado a medidas relativas */
+}
+
+#qrcode {
+margin-top: 1.25em; /* Equivalente a 20px */
+width: 60%; /* Ancho del QR relativo al contenedor */
+height: auto; /* Mantener la proporción de la imagen */
+}
+
+.boton {
+margin-top: 1.25em; /* Espaciado superior ajustable */
+padding: 0.625em 1.25em; /* Espaciado interno ajustado */
+background-color: #a0830d;
+color: rgb(255, 255, 255);
+border: none;
+border-radius: 0.3125em; /* Equivalente a 5px */
+cursor: pointer;
+font-size: 1rem; /* Tamaño relativo a la raíz */
+transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+background-color: #a04545;
+}
